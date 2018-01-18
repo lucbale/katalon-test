@@ -1,0 +1,1 @@
+katalon -runMode=console -projectPath="C:\Users\Win8.1\Katalon Studio\MarketPlaceManager\MarketPlaceManager.prj" -retry=0 -testSuitePath="Test Suites/login-excel" -browserType="Firefox"
