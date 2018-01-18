@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="login" tests="1" failures="0" errors="0" time="22" timestamp="2018-01-18 12:07:00" hostname="Win8.1 - Acer.lan" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Win8.1\\Katalon Studio\\MarketPlaceManager\\Reports\\login\\20180118_120659"/>
+         <property name="logFiles" value="C:\\Users\\Win8.1\\Katalon Studio\\MarketPlaceManager\\Reports\\login\\20180118_120659\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Win8.1 - Acer.lan"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.1.198"/>
+         <property name="sessionId" value="4f865472-1b51-4711-b185-701babb0bcdf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-01-18 12:07:01 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-01-18 12:07:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.marketplacemanager.cloud/login/auth'
+
+2018-01-18 12:07:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.marketplacemanager.cloud/login/auth'
+
+2018-01-18 12:07:20 - [TEST_STEP][PASSED] - setText: Text 'info@macro.it' is set on object 'Object Repository/Page_MPM  Login/input_username'
+
+2018-01-18 12:07:20 - [MESSAGE][PASSED] - Text 'info@macro.it' is set on object 'Object Repository/Page_MPM  Login/input_username'
+
+2018-01-18 12:07:20 - [TEST_STEP][PASSED] - setText: Text 'MPM_admin@2017' is set on object 'Object Repository/Page_MPM  Login/input_password'
+
+2018-01-18 12:07:20 - [MESSAGE][PASSED] - Text 'MPM_admin@2017' is set on object 'Object Repository/Page_MPM  Login/input_password'
+
+2018-01-18 12:07:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MPM  Login/button_Entra' is clicked on
+
+2018-01-18 12:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MPM  Login/button_Entra' is clicked on
+
+2018-01-18 12:07:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-18 12:07:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-18 12:07:00 - [TEST_SUITE][PASSED] - login: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

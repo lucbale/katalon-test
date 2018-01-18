@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="38" tests="0" failures="1" errors="0">
+   <testsuite name="login" tests="0" failures="1" errors="0" time="38" timestamp="2018-01-18 12:03:50" hostname="Win8.1 - Acer.lan" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Win8.1\\Katalon Studio\\MarketPlaceManager\\Reports\\login\\20180118_120348"/>
+         <property name="logFiles" value="C:\\Users\\Win8.1\\Katalon Studio\\MarketPlaceManager\\Reports\\login\\20180118_120348\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Win8.1\\Katalon Studio\\MarketPlaceManager\\Reports\\login\\20180118_120348\\1516273468477.png"/>
+         <property name="hostName" value="Win8.1 - Acer.lan"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.1.198"/>
+         <property name="sessionId" value="3be63517-b609-4bad-a941-8cd3cd5548cb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)"/>
+         <system-out><![CDATA[2018-01-18 12:03:50 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+
+2018-01-18 12:03:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-18 12:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-18 12:03:57 - [TEST_STEP][FAILED] - setText: Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+
+2018-01-18 12:04:28 - [MESSAGE][FAILED] - Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+[[ATTACHMENT|C:\\Users\\Win8.1\\Katalon Studio\\MarketPlaceManager\\Reports\\login\\20180118_120348\\1516273468477.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-18 12:03:50 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-18 12:03:50 - [TEST_SUITE][FAILED] - login: Test Cases/login FAILED because (of) Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-18 12:03:50 - [TEST_SUITE][FAILED] - login: Test Cases/login FAILED because (of) Unable to set text 'info@macro.it' of object 'Object Repository/Page_MPM  Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MPM  Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
